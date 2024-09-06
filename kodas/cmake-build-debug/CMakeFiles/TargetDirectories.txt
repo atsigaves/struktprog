@@ -1,0 +1,3 @@
+C:/Users/s058099/Documents/struktprog/kodas/cmake-build-debug/CMakeFiles/kodas.dir
+C:/Users/s058099/Documents/struktprog/kodas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/s058099/Documents/struktprog/kodas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

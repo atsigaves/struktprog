@@ -37,10 +37,33 @@ int main()
     cout << "Automobilis: " << marke << " " << modelis;
     cout << " yra pagamintas " << metai << ".";
     cout << " Jo motoras " << litrazas << " litrazo.";
-    cout << " Automobilis yra " << spalva << " spalvos.";
+    cout << " Automobilis yra " << spalva << " spalvos." << endl;
 //ketvirta uzduotis
     cout << "-------4 uzduotis-------" << endl;
 
+    int a = 13;
+    int b = 5;
+    double c = 17.5;
+    cout << a + b - c << endl;
+    cout << 15 / 2 + c << endl;
+    cout << a / static_cast<double>(b) + 2 * c << endl;
+    cout << 14 % 3 + 6.3 + b / a << endl;
+    cout << static_cast<int>(c) % 5 + a - b << endl;
+    cout << 13.5 / 2 + 4.0 * 3.5 + 18 << endl;
+    //penkta uzduotis
+    cout << "-------5 uzduotis-------" << endl;
+
+    double sk1 = 5;
+    double sk2 = 0;
+    double sk3 = 3;
+    double sk4 = 4;
+    double sk5 = 1;
+
+    cout << sk1 + sk2 + sk3 + sk4 + sk5 / 5 << endl;
+//sesta uzduotis
+cout << "-------6 uzduotis-------" << endl;
+
+    
 
     return 0;
 }

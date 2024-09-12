@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    cout<<"-------1 uzduotis--------" << endl;
+    cout << "-------1 uzduotis--------" << endl;
 
     string vardas = "Dovydas";
     string pavarde = "Sinkevicius";
@@ -11,7 +11,7 @@ int main()
     cout << "Vardas: " << vardas << endl;
     cout << "Pavarde: " << pavarde << endl;
     cout << "Amzius: " << amzius << endl;
-//antra uzduotis
+// antra uzduotis
     cout << "-------2 uzduotis-------" << endl;
 
     string krepsinioKlubas = "Vilniaus Rytas";
@@ -25,7 +25,7 @@ int main()
     cout << "savininkas: " << savininkas << endl;
     cout << "Arena: " << arena <<endl;
     cout << "VietuSkaicius: " << vietuSkaicius << endl;
-//trecia uzduotis
+// trecia uzduotis
     cout << "-------3 uzduotis-------" << endl;
 
     string marke = "BMW";
@@ -38,7 +38,7 @@ int main()
     cout << " yra pagamintas " << metai << ".";
     cout << " Jo motoras " << litrazas << " litrazo.";
     cout << " Automobilis yra " << spalva << " spalvos." << endl;
-//ketvirta uzduotis
+// ketvirta uzduotis
     cout << "-------4 uzduotis-------" << endl;
 
     int a = 13;
@@ -50,7 +50,7 @@ int main()
     cout << 14 % 3 + 6.3 + b / a << endl;
     cout << static_cast<int>(c) % 5 + a - b << endl;
     cout << 13.5 / 2 + 4.0 * 3.5 + 18 << endl;
-    //penkta uzduotis
+    // penkta uzduotis
     cout << "-------5 uzduotis-------" << endl;
 
     double sk1 = 5;
@@ -60,7 +60,7 @@ int main()
     double sk5 = 1;
 
     cout << sk1 + sk2 + sk3 + sk4 + sk5 / 5 << endl;
-//sesta uzduotis
+// sesta uzduotis
 cout << "-------6 uzduotis-------" << endl;
     int dviSk = 46;
     int num = dviSk / 10;

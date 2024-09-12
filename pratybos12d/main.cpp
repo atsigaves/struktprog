@@ -62,7 +62,11 @@ int main()
     cout << sk1 + sk2 + sk3 + sk4 + sk5 / 5 << endl;
 //sesta uzduotis
 cout << "-------6 uzduotis-------" << endl;
-
+    int dviSk = 46;
+    int num = dviSk / 10;
+    int num2 = dviSk % 10;
+    int suma = num + num2;
+    cout << "skaitmenu suma: " << suma << endl;
     
 
     return 0;

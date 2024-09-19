@@ -1,0 +1,3 @@
+/Users/dsink77/Documents/GitHub/struktprog/Rugsejo19dPratybos/cmake-build-debug/CMakeFiles/Rugsejo19dPratybos.dir
+/Users/dsink77/Documents/GitHub/struktprog/Rugsejo19dPratybos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dsink77/Documents/GitHub/struktprog/Rugsejo19dPratybos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int choice = 0;
+    /*int choice = 0;
     int num1, num2;
     int i = 0;
 
@@ -38,5 +38,12 @@ int main() {
                 cout << "Tokio pasirinkimo nera" << endl;
         }
     }
+    int indelis = 1000;
+    int palukanos;
+    palukanos = indelis * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05;
+    cout << "Palukanos po 10 metu: " << palukanos << endl;
+    */
+    
+
     return 0;
 }

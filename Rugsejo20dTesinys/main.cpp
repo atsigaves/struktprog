@@ -43,7 +43,15 @@ int main() {
     palukanos = indelis * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05 * 1.05;
     cout << "Palukanos po 10 metu: " << palukanos << endl;
     */
-    
+    int skaicius = 20;
+    for (int i = 1; i <= skaicius ; i++) {
+        if ( i % 4 == 0 ) {
+            cout << "dalinasi is 4 :" << i << endl;
+        } else {
+            cout << "nesidalina: " << i << endl;
+        }
+
+    }
 
     return 0;
 }

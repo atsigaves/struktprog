@@ -1,0 +1,3 @@
+/Users/dsink77/Documents/GitHub/struktprog/dvimatisMasyvas(10-17)/cmake-build-debug/CMakeFiles/dvimatisMasyvas_10_17_.dir
+/Users/dsink77/Documents/GitHub/struktprog/dvimatisMasyvas(10-17)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dsink77/Documents/GitHub/struktprog/dvimatisMasyvas(10-17)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

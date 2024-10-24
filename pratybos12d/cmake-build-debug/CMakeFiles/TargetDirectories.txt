@@ -1,0 +1,3 @@
+/Users/dsink77/Documents/GitHub/struktprog/pratybos12d/cmake-build-debug/CMakeFiles/pratybos12d.dir
+/Users/dsink77/Documents/GitHub/struktprog/pratybos12d/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dsink77/Documents/GitHub/struktprog/pratybos12d/cmake-build-debug/CMakeFiles/rebuild_cache.dir

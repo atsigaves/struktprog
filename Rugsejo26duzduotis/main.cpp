@@ -69,6 +69,18 @@ double skDalyb() {
     dalyba = a / b;
     cout << "dalijant skaicius gauname: " << dalyba << endl;
 }*/
+int didesnisArbaLygus(int a, int b) {
+    if (a == b) {
+        cout << "a lygus b" << endl;
+        cout << "Ivesti skaiciai "<< a << "a - " << b << "b" << endl;
+    } if (a > b ) {
+        cout << "a didesnis uz b" << endl;
+        cout << "Ivesti skaiciai " << a << "a - " << b << "b" << endl;
+    } if (a < b ) {
+        cout << "b didesnis uz a" << endl;
+        cout << "Ivesti skaiciai " << a << "a - " << b << "b" << endl;
+    }
+}
 int main()
 {
     /*getName();
@@ -81,6 +93,6 @@ int main()
     skSandau();
     skDalyb();
     */
-
+    didesnisArbaLygus(1, 3);
     return 0;
 }

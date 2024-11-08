@@ -1,0 +1,3 @@
+/Users/dsink77/Documents/GitHub/struktprog/Lapkricio8-15dPratybos/cmake-build-debug/CMakeFiles/Lapkricio8_15dPratybos.dir
+/Users/dsink77/Documents/GitHub/struktprog/Lapkricio8-15dPratybos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dsink77/Documents/GitHub/struktprog/Lapkricio8-15dPratybos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

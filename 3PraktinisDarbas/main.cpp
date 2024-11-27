@@ -70,6 +70,41 @@ string desifravimasABC(char tekstas[], char raktas[]) {
     }
     return rezultatasString;
 }
+string uzsifravimasASCII(char tekstas[], char raktas[]) {
+    int asciiPradzia = 33;
+    int asciiPabaiga = 126;
+    int asciiIlgis = asciiPabaiga - asciiPradzia + 1;
+    int tekstoIndeksas = -1;
+    int raktoIndeksas = -1;
+    int tekstoIlgis = strlen(tekstas);
+    string raktasString = raktas;
+    while(raktasString.length() < strlen(tekstas)) {
+        raktasString.append(raktasString.begin(), raktasString.end());
+    }
+    strcpy(raktas, raktasString.c_str());
+    char rezultatas[100];
+    for (int i = 0; i < tekstoIlgis; i++) {
+        for (int j = asciiPradzia; j < asciiPabaiga; j++) {
+            if (tekstas[i] == static_cast<unsigned char>(j)){
+                tekstoIndeksas = j;
+            }
+            if (raktas[i] == static_cast<unsigned char>(j)) {
+                raktoIndeksas = j;
+            }
+            if (raktoIndeksas != -1 && tekstoIndeksas != -1) {
+                int rezultatoIndeksas = ((tekstoIndeksas - asciiPradzia)+ (raktoIndeksas - asciiPradzia)) % asciiIlgis + asciiPradzia;
+                rezultatas[i] = (unsigned char)rezultatoIndeksas;
+                tekstoIndeksas = -1;
+                raktoIndeksas = -1;
+            }
+        }
+    }
+    string rezultatasString = "";
+    for (int i = 0; i < tekstoIlgis; i++) {
+        rezultatasString = rezultatasString + rezultatas[i];
+    }
+    return rezultatasString;
+}
 
 
 

@@ -13,7 +13,6 @@ int main()
         failas >> masyvas[k];
         k++;
     }
-    failas.close();
     cout << endl;
     for (int i = 0; i < k; i++) {
         cout << masyvas[i] << endl;

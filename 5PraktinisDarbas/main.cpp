@@ -16,5 +16,22 @@ int main() {
             cin >> xy[i][j];
         }
     }
+    for(int i=0;i < eilutes;i++) {
+        for(int j=0;j < stulpeliai;j++) {
+            if(max < xy[i][j]) {
+                max = xy[i][j];
+            }
+            cout << xy[i][j] <<" ";
+        }
+        cout<<endl;
+    }
+    for(int i=0;i < eilutes;i++) {
+        for(int j=0;j < stulpeliai;j++) {
+            eilutes_sum+=xy[i][j];
+        }
+        cout << "Eilutes "<<i+1<<" suma: "<<eilutes_sum;
+        eilutes_sum=0;
+        cout<<endl;
+    }
     return 0;
 }

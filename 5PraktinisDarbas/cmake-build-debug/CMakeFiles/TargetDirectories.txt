@@ -1,0 +1,3 @@
+/Users/dsink77/Documents/GitHub/struktprog/5PraktinisDarbas/cmake-build-debug/CMakeFiles/5PraktinisDarbas.dir
+/Users/dsink77/Documents/GitHub/struktprog/5PraktinisDarbas/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dsink77/Documents/GitHub/struktprog/5PraktinisDarbas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -33,5 +33,15 @@ int main() {
         eilutes_sum=0;
         cout<<endl;
     }
+    for(int j=0;j < stulpeliai;j++) {
+        for(int i=0;i < eilutes;i++) {
+            stulpelio_sum+=xy[i][j];
+        }
+        cout << "Stulpelio "<<j+1<<" suma: "<<stulpelio_sum;
+        stulpelio_sum=0;
+        cout<<endl;
+    }
+
+    cout<<"Didziausia verte: "<< max<<endl;
     return 0;
 }
